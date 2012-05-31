@@ -4,7 +4,7 @@
   <title><![CDATA[Maker's blog]]></title>
   <link href="http://makerweb.github.com/atom.xml" rel="self"/>
   <link href="http://makerweb.github.com/"/>
-  <updated>2012-05-31T10:42:09+08:00</updated>
+  <updated>2012-05-31T12:02:18+08:00</updated>
   <id>http://makerweb.github.com/</id>
   <author>
     <name><![CDATA[Maker]]></name>
@@ -18,20 +18,134 @@
     <link href="http://makerweb.github.com/blog/2012/05/31/shi-%5B%3F%5D-xia/"/>
     <updated>2012-05-31T10:20:00+08:00</updated>
     <id>http://makerweb.github.com/blog/2012/05/31/shi-[?]-xia</id>
-    <content type="html"><![CDATA[<ul>
-<li>skahdadhadakhd</li>
-<li>dljfhsdhflsjdf</li>
-<li><p>dkafhlhsldjfjsdfh</p></li>
-<li><p>jadhajk</p></li>
-<li>adlajhdjad</li>
-<li>kajlkjhdfsd</li>
+    <content type="html"><![CDATA[<p>这是一个普通段落。</p>
+
+<table>
+    <tr>
+        <td>Foo</td>
+    </tr>
+</table>
+
+
+<p></p>
+
+<p><a href="http://www.dhifi.com">dhifi</a></p>
+
+<h1>This is an H1</h1>
+
+<h2>This is an H2</h2>
+
+<h1>这是 H1</h1>
+
+<h2>这是 H2</h2>
+
+<h3>这是 H3</h3>
+
+<blockquote><p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.</p>
+
+<p>Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.</p>
+
+<h2>这是一个标题。</h2>
+
+<ol>
+<li>这是第一行列表项。</li>
+<li>这是第二行列表项。</li>
+</ol>
+
+
+<p>给出一些例子代码：</p>
+
+<pre><code>return shell_exec("echo $input | $markdown_script");
+</code></pre></blockquote>
+
+<ul>
+<li>Red</li>
+<li>Green</li>
+<li><p>Blue</p></li>
+<li><p>Bird</p></li>
+<li>McHale</li>
+<li><p>Parish</p></li>
+<li><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
+viverra nec, fringilla in, laoreet vitae, risus.</p></li>
+<li>Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
+Suspendisse id sem consectetuer libero luctus adipiscing.</li>
 </ul>
 
 
-<p>这是一个段落</p>
+<p>Here is an example of AppleScript:</p>
 
-<pre><code>&lt;p&gt;jsfjsd&lt;/p&gt;
+<pre><code>tell application "Foo"
+    beep
+end tell
 </code></pre>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;footer&quot;</span><span class="nt">&gt;</span>
+</span><span class='line'>      <span class="ni">&amp;copy;</span> 2004 Foo Corporation
+</span><span class='line'><span class="nt">&lt;/div&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">def</span> <span class="nf">method</span>
+</span><span class='line'>  <span class="vi">@post</span> <span class="o">=</span> <span class="no">Post</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="ss">:all</span><span class="p">)</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='js'><span class='line'><span class="nx">alert</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span><span class='line'><span class="kd">var</span> <span class="nx">as</span> <span class="o">=</span> <span class="s2">&quot;23213&quot;</span>
+</span><span class='line'><span class="nx">$</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>  <span class="nx">$</span><span class="p">(</span><span class="s2">&quot;asdasd&quot;</span><span class="p">).</span><span class="nx">click</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>      <span class="nx">arr</span> <span class="o">=</span> <span class="p">[];</span>
+</span><span class='line'>      
+</span><span class='line'>  <span class="p">});</span>
+</span><span class='line'>  
+</span><span class='line'><span class="p">})</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='css'><span class='line'><span class="nc">.asd</span><span class="p">{</span><span class="k">background</span><span class="o">:</span><span class="sx">url(/img/asd.png)</span> <span class="k">no-repeat</span> <span class="cp">!important</span><span class="p">;}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This is <a href="http://example.com/" title="Title">an example</a> inline link.</p>
+
+<p><em>single asterisks</em></p>
+
+<p><em>single underscores</em></p>
+
+<p><strong>double asterisks</strong></p>
+
+<p><strong>double underscores</strong></p>
+
+<p><img src="http://makerweb.github.com/path/to/img.jpg" alt="Alt text" /></p>
+
+<p><img src="http://makerweb.github.com/path/to/img.jpg" title="Optional title" alt="Alt text" /></p>
 ]]></content>
   </entry>
   
