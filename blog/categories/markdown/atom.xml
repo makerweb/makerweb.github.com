@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: markdown | Maker's blog]]></title>
+  <link href="http://makerweb.github.com/blog/categories/markdown/atom.xml" rel="self"/>
+  <link href="http://makerweb.github.com/"/>
+  <updated>2012-05-31T14:44:52+08:00</updated>
+  <id>http://makerweb.github.com/</id>
+  <author>
+    <name><![CDATA[Maker]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[markdown语法测试]]></title>
+    <link href="http://makerweb.github.com/blog/2012/05/31/shi-%5B%3F%5D-xia/"/>
+    <updated>2012-05-31T10:20:00+08:00</updated>
+    <id>http://makerweb.github.com/blog/2012/05/31/shi-[?]-xia</id>
+    <content type="html"><![CDATA[<p>在这里纪录一下markdown的语法知识，注意markdown语法不起作用的时候在行尾加上空格,```这个字符我居然打不出来。。害我贴代码都只能用复制，用键盘敲出来是§符号，真是搞不懂。</p>
+
+<!-- more -->
+
+
+<p>这是一个普通段落。</p>
+
+<table>
+    <tr>
+        <td>Foo</td>
+    </tr>
+</table>
+
+
+<p></p>
+
+<p><a href="http://www.dhifi.com">dhifi</a></p>
+
+<h1>This is an H1</h1>
+
+<h2>This is an H2</h2>
+
+<h1>这是 H1</h1>
+
+<h2>这是 H2</h2>
+
+<h3>这是 H3</h3>
+
+<p>```html</p>
+
+<!-- more -->
+
+
+<p>```</p>
+
+<blockquote><p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.</p>
+
+<p>Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.</p>
+
+<h2>这是一个标题。</h2>
+
+<ol>
+<li>这是第一行列表项。</li>
+<li>这是第二行列表项。</li>
+</ol>
+
+
+<p>给出一些例子代码：</p>
+
+<pre><code>return shell_exec("echo $input | $markdown_script");
+</code></pre></blockquote>
+
+<ul>
+<li>Red</li>
+<li>Green</li>
+<li><p>Blue</p></li>
+<li><p>Bird</p></li>
+<li>McHale</li>
+<li><p>Parish</p></li>
+<li><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
+viverra nec, fringilla in, laoreet vitae, risus.</p></li>
+<li>Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
+Suspendisse id sem consectetuer libero luctus adipiscing.</li>
+</ul>
+
+
+<p>Here is an example of AppleScript:</p>
+
+<pre><code>tell application "Foo"
+    beep
+end tell
+</code></pre>
+
+<p>```html</p>
+
+<div class="footer">
+        &copy; 2004 Foo Corporation
+</div>
+
+
+<p>```</p>
+
+<p>```ruby
+def method</p>
+
+<pre><code>@post = Post.find(:all)
+</code></pre>
+
+<p>end
+```</p>
+
+<p>```js
+alert(1)
+var as = "23213"
+$(function(){</p>
+
+<pre><code>$("asdasd").click(function(){
+    arr = [];
+
+});
+</code></pre>
+
+<p>})
+```</p>
+
+<p><code>css
+.asd{background:url(/img/asd.png) no-repeat !important;}
+</code></p>
+
+<p>This is <a href="http://example.com/" title="Title">an example</a> inline link.</p>
+
+<p><em>single asterisks</em></p>
+
+<p><em>single underscores</em></p>
+
+<p><strong>double asterisks</strong></p>
+
+<p><strong>double underscores</strong></p>
+
+<p><img src="/path/to/img.jpg" alt="Alt text" /></p>
+
+<p><img src="/path/to/img.jpg" title="Optional title" alt="Alt text" /></p>
+]]></content>
+  </entry>
+  
+</feed>

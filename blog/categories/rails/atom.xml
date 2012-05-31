@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: rails | Maker's blog]]></title>
+  <link href="http://makerweb.github.com/blog/categories/rails/atom.xml" rel="self"/>
+  <link href="http://makerweb.github.com/"/>
+  <updated>2012-05-31T14:44:52+08:00</updated>
+  <id>http://makerweb.github.com/</id>
+  <author>
+    <name><![CDATA[Maker]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[把.find方法移到model中]]></title>
+    <link href="http://makerweb.github.com/blog/2012/05/31/ba-dot-findfang-fa-yi-dao-modelzhong/"/>
+    <updated>2012-05-31T13:51:00+08:00</updated>
+    <id>http://makerweb.github.com/blog/2012/05/31/ba-dot-findfang-fa-yi-dao-modelzhong</id>
+    <content type="html"><![CDATA[<p>在做项目的过程中，应尽量吧与某个model相关的查询从controller中移到model中，提升相关代码的复用性</p>
+
+<!-- more -->
+
+
+<p>比如这个查询是在controller中查找所有未完成的任务，然后再desc排序</p>
+
+<p>```ruby
+class TaskController &lt; ApplicationController
+  def index</p>
+
+<pre><code>@tasks = Task.find_all_by_complete(:false, :order =&gt; "created_at DESC")
+</code></pre>
+
+<p>  end
+end
+```</p>
+
+<p>先在model中定义一个方法
+```ruby
+class Task &lt; ActiveRecord::Base
+  belongs_to :project</p>
+
+<p>  def self.find_incomplete</p>
+
+<pre><code>find_all_by_complete(:false, :order =&gt; "created_at DESC")
+</code></pre>
+
+<p>  end
+end
+```</p>
+
+<p>然后就可以在controller中调用了。</p>
+
+<p>```ruby
+class ProjectsController &lt; ApplicationController</p>
+
+<pre><code>def show
+    @project = Project.find(params[:id])
+    @tasks = @project.tasks.find_incomplete #因为Project和Task是一对多关系,所以直接用.连接起来
+end
+</code></pre>
+
+<p>end
+```</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: octopress | Maker's blog]]></title>
+  <link href="http://makerweb.github.com/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://makerweb.github.com/"/>
+  <updated>2012-05-31T14:44:52+08:00</updated>
+  <id>http://makerweb.github.com/</id>
+  <author>
+    <name><![CDATA[Maker]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[从今天开始使用octopress]]></title>
+    <link href="http://makerweb.github.com/blog/2012/05/31/cong-jin-tian-kai-shi-shi-yong-octopress/"/>
+    <updated>2012-05-31T14:08:00+08:00</updated>
+    <id>http://makerweb.github.com/blog/2012/05/31/cong-jin-tian-kai-shi-shi-yong-octopress</id>
+    <content type="html"><![CDATA[<ul>
+<li>很久以前就想写blog阿。但是自己的确太缺乏恒心了。今天上午发现了这个叫octopress的玩意儿。花了2－3个小时终于搞通了.
+在<a href="http://ruby-china.org">ruby-china</a>上面倒是有很多人在推荐这个blog程序，我想多半因为搞Rails的人包括我自己和一些同事都是geek的原因吧.
+用markdown语法来写blog是头一次。不用数据库纪录也是头一次，我希望今后会慢慢的完善这个blog的功能，算是锻炼自己了。大概就这样吧</li>
+</ul>
+
+
+<p><strong>接下来的计划</strong><br/>
+1. 我没有twitter帐号,把下面哪个tweet取掉<br/>
+2. textmate对中文的支持真差，想个办法解决<br/>
+3. 黑苹果没有声卡驱动，怎么办呢？<br/>
+4. 暂时没有想到</p>
+]]></content>
+  </entry>
+  
+</feed>
