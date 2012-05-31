@@ -4,7 +4,7 @@
   <title><![CDATA[Maker's blog]]></title>
   <link href="http://makerweb.github.com/atom.xml" rel="self"/>
   <link href="http://makerweb.github.com/"/>
-  <updated>2012-05-31T10:00:05+08:00</updated>
+  <updated>2012-05-31T10:42:09+08:00</updated>
   <id>http://makerweb.github.com/</id>
   <author>
     <name><![CDATA[Maker]]></name>
@@ -14,11 +14,24 @@
 
   
   <entry>
-    <title type="html"><![CDATA[这是一篇新的文章]]></title>
-    <link href="http://makerweb.github.com/blog/2012/05/30/zhe-shi-%5B%3F%5D-pian-xin-de-wen-zhang/"/>
-    <updated>2012-05-30T17:50:00+08:00</updated>
-    <id>http://makerweb.github.com/blog/2012/05/30/zhe-shi-[?]-pian-xin-de-wen-zhang</id>
-    <content type="html"><![CDATA[
+    <title type="html"><![CDATA[试一下]]></title>
+    <link href="http://makerweb.github.com/blog/2012/05/31/shi-%5B%3F%5D-xia/"/>
+    <updated>2012-05-31T10:20:00+08:00</updated>
+    <id>http://makerweb.github.com/blog/2012/05/31/shi-[?]-xia</id>
+    <content type="html"><![CDATA[<ul>
+<li>skahdadhadakhd</li>
+<li>dljfhsdhflsjdf</li>
+<li><p>dkafhlhsldjfjsdfh</p></li>
+<li><p>jadhajk</p></li>
+<li>adlajhdjad</li>
+<li>kajlkjhdfsd</li>
+</ul>
+
+
+<p>这是一个段落</p>
+
+<pre><code>&lt;p&gt;jsfjsd&lt;/p&gt;
+</code></pre>
 ]]></content>
   </entry>
   
