@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: diablo | Maker's blog]]></title>
+  <link href="http://makerweb.github.com/blog/categories/diablo/atom.xml" rel="self"/>
+  <link href="http://makerweb.github.com/"/>
+  <updated>2012-06-04T13:58:46+08:00</updated>
+  <id>http://makerweb.github.com/</id>
+  <author>
+    <name><![CDATA[Maker]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[打过了普通大菠萝]]></title>
+    <link href="http://makerweb.github.com/blog/2012/06/04/da-guo-liao-pu-tong-da-bo-luo/"/>
+    <updated>2012-06-04T13:54:00+08:00</updated>
+    <id>http://makerweb.github.com/blog/2012/06/04/da-guo-liao-pu-tong-da-bo-luo</id>
+    <content type="html"><![CDATA[<p>我在美服玩的是一个法师。
+上周刚打过普通难度，拍卖行里买了1w多g的装备。现在好厉害阿，关键是换了个高dps的武器，暴雪也真是的，好好的法师去追求高攻武器做什么</p>
+
+<p>同事已经60级了，我什么时候才能满级阿。。。</p>
+]]></content>
+  </entry>
+  
+</feed>
